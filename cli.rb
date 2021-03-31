@@ -9,6 +9,6 @@ class Cli < Formula
   license "MIT"
 
   def install
-       bin.install "README.md, lerna.json"
+       bin.install ""
   end
 end
