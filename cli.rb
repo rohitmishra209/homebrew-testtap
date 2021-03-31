@@ -9,6 +9,6 @@ class Cli < Formula
   license "MIT"
 
   def install
-       bin.install "contentstack-cli"
+       bin.install "README.md"
   end
 end
