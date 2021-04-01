@@ -6,7 +6,7 @@ class Cli < Formula
   desc "Contentstack Command-line Interface (CLI)"
   homepage ""
   url "https://registry.npmjs.org/@contentstack/cli/-/cli-0.1.1-beta.5.tgz"
-  sha256 "391a27478f957005cbfb7bcbee2d7f251f2a32acc65fb287b6069b8405573d66"
+  sha256 "f9e96c14cd538999a4d9d580c828a059bac1ec86fbfedac5bba6ee0e1c68e388"
   license "MIT"
 
   def install
