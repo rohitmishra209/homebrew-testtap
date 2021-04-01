@@ -5,7 +5,7 @@ require "language/node"
 class Cli < Formula
   desc "Contentstack Command-line Interface (CLI)"
   homepage ""
-  url "https://github.com/contentstack/cli/archive/refs/tags/v0.1.1-beta.1.tar.gz"
+  url "https://registry.npmjs.org/@contentstack/cli/-/cli-0.1.1-beta.5.tgz"
   sha256 "391a27478f957005cbfb7bcbee2d7f251f2a32acc65fb287b6069b8405573d66"
   license "MIT"
 
