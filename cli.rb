@@ -1,6 +1,7 @@
 # Documentation: https://docs.brew.sh/Formula-Cookbook
 #                https://rubydoc.brew.sh/Formula
 # PLEASE REMOVE ALL GENERATED COMMENTS BEFORE SUBMITTING YOUR PULL REQUEST!
+require "language/node"
 class Cli < Formula
   desc "Contentstack Command-line Interface (CLI)"
   homepage ""
@@ -9,9 +10,8 @@ class Cli < Formula
   license "MIT"
 
   def install
-    system "make", "install"
-  end
-  test do
-    assert_equal "brew", shell_output("#{bin}/hello --greeting=brew").chomp
+    # system "make", "install"
+    system "npm", "install", *Language::Node.std_npm_install_args(libexec)
+    bin.install_symlink Dir["#{libexec}/bin/*"]
   end
 end
